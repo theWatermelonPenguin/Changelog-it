@@ -1,0 +1,33 @@
+{
+  "name": "@thewatermelonpenguin/changelog-it",
+  "version": "1.0.0",
+  "description": "Automatically generate your changelog from git commits following Keep a Changelog and SemVer.",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "changelog-it": "./src/index.js"
+  },
+  "scripts": {
+    "clit": "node ./src/index.js",
+    "clit:sync": "git fetch origin && git reset --hard origin"
+  },
+  "keywords": [
+    "changelog",
+    "git",
+    "semantic-versioning",
+    "conventional-commits",
+    "keep-a-changelog"
+  ],
+  "author": "Penguin",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theWatermelonPenguin/Changelog-it"
+  }
+}

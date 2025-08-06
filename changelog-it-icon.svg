@@ -1,0 +1,49 @@
+<svg
+  width="64"
+  height="64"
+  viewBox="0 0 64 64"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" stroke="#4CAF50" stroke-width="4" fill="white" />
+
+  <!-- Stacked layers (log entries) -->
+  <rect x="20" y="20" width="24" height="6" rx="1.5" fill="#4CAF50" />
+  <rect x="20" y="30" width="24" height="6" rx="1.5" fill="#81C784" />
+  <rect x="20" y="40" width="24" height="6" rx="1.5" fill="#A5D6A7" />
+
+  <!-- Upward arrow (progress/update) -->
+  <path
+    d="M32 12 L32 28 M32 12 L26 18 M32 12 L38 18"
+    stroke="#388E3C"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Clock circle -->
+  <circle cx="44" cy="44" r="8" stroke="#4CAF50" stroke-width="2" fill="none" />
+
+  <!-- Big hand (minute hand) pointing at 2 o'clock (upper-right) -->
+  <line
+    x1="44"
+    y1="44"
+    x2="48"
+    y2="37.07"
+    stroke="#4CAF50"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+
+  <!-- Little hand (hour hand) pointing down at 6 o'clock (shorter) -->
+  <line
+    x1="44"
+    y1="44"
+    x2="44"
+    y2="49"
+    stroke="#4CAF50"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+</svg>
